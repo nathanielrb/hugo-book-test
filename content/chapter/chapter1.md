@@ -1,3 +1,5 @@
-# Chapter 1
++++
+title = "Chapter 1"
 
-My chapter
++++
+The first chapter
