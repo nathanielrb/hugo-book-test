@@ -1,0 +1,332 @@
+\documentclass[oneside]{memoir}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[tracking=true]{microtype}
+
+\usepackage{xcolor, marginnote, xparse, graphicx, caption, verse}
+
+\usepackage[hidelinks]{hyperref}
+
+\usepackage[hang,flushmargin]{footmisc} 
+
+\usepackage{ucs}
+
+\usepackage[T1]{fontenc}
+\usepackage{libertine}
+% \renewcommand*\familydefault{\sfdefault} 
+
+\frenchspacing
+
+
+% This rule will take exactly \baselinskip space, maintaining the grid. The
+% raise value is the height above the next baseline. It will extend down
+% thickness.
+% \trule[thickness][raise]
+\NewDocumentCommand\trule{O{0.4pt}O{0pt}}{
+  \vskip0pt\vtop to0pt{
+    \noindent\raisebox{#2}{\vbox{\leavevmode\hrule height#1}}}
+}
+
+
+%% Font Sizes
+
+\makeatletter %only needed in preamble
+\renewcommand\normalsize{\@setfontsize\normalsize{10.5pt}{18pt}}
+\renewcommand\Large{\@setfontsize\Large{13pt}{18}}
+\renewcommand\footnotesize{\@setfontsize\footnotesize{8pt}{11}}
+\makeatother
+
+
+% Bringhurst layout
+
+\settypeblocksize{565.32431pt}{406pt}{1.25}
+
+\makechapterstyle{Bringhurst}{%
+  \chapterstyle{default}
+  \setsecnumdepth{subsection}
+  \renewcommand{\chaptitlefont}
+               {%\fontfamily{qcr}\selectfont
+               \raggedleft
+                \normalfont
+                \itshape
+                \large}
+  \renewcommand*{\printchaptername}{}
+   \renewcommand*{\chapternamenum}{}
+  \renewcommand*{\printchapternum}{%
+  \marginnote{\chapnumfont \color{myred}}[0\baselineskip]
+  }%
+  \renewcommand*{\afterchapternum}{}
+    \renewcommand*{\printchaptertitle}[1]{
+    \chaptitlefont##1}
+%  \renewcommand*{\afterchaptertitle}{\vspace{38pt}\hrule\vspace{10.5pt}} % 10.5+18-1pt for trule width
+
+\headheight18pt
+\headsep23.5pt
+
+\beforechapskip50pt
+\baselineskip18pt
+\topskip0pt
+\afterchapskip10.5pt
+
+  \setsecindent{0pt}
+  \setbeforesecskip{0pt}
+  \setaftersecskip{18pt}
+  \setsecheadstyle{
+  		\clearpage
+        \scshape
+        \raggedright
+  }
+
+  \setaftersubsecskip{18pt}
+  \setbeforesubsecskip{2.5pt}
+  \setsubsecindent{0pt}
+  \setsubsecheadstyle{
+%  		\clearpage
+        \normalfont
+        \itshape
+        \raggedright
+  }
+  
+
+
+\setlength\parindent{-0em}
+
+\setlength{\parskip}{18pt}
+
+% \linespread{1.24}
+
+\topmargin18pt
+\oddsidemargin40pt
+%\evensidemargin0pt
+	
+% footnotes as sidenotes
+
+\renewcommand{\footnote}{\sidefootnote}
+
+% \setsidefeet{ hhsepi }{ hwidthi }{ hvsepi }{ hadji }{ hfonti }{ hheighti }
+
+\setsidefeet{10.5pt}{95.5pt}%
+{\onelineskip}{0pt}%
+{\normalfont\footnotesize}{\textheight}%
+
+
+\makeevenhead{headings}{}{}{\thepage} 
+\makeoddhead{headings}{}{}{\thepage}
+
+
+}
+
+
+
+\frenchspacing
+
+\chapterstyle{Bringhurst}
+
+
+% Poem
+
+\renewcommand{\PoemTitleheadstart}{\clearpage}
+
+\renewcommand{\PoemTitlefont}{\centering\scshape}
+
+\vleftmargin0em
+
+% cheating ;-)
+%  \renewcommand{\section}{\PoemTitle*}
+
+% Chapter numbers (?)
+
+\addtopsmarks{headings}{}{
+  \createmark{chapter}{left}{nonumber}{}{}
+}
+\pagestyle{headings} % activate changes
+
+
+
+%% My Settings
+
+\definecolor{myred}{HTML}{ab0024}
+
+
+\widowpenalty=5000
+ \clubpenalty=5000 
+ 
+ \lefthyphenmin4
+\righthyphenmin4
+
+\captionsetup{labelformat=empty}
+
+
+
+\renewcommand{\PoemTitlefont}{%
+\normalfont\large\itshape}
+
+\beforePoemTitleskip0pt
+\midPoemTitleskip0pt
+\afterPoemTitleskip0pt
+
+ 
+\let\oldsubsection\subsection
+\renewcommand\subsection{\znewpage\oldsubsection}
+
+\let\oldsection\section
+\renewcommand\section{\clearpage\gdef\znewpage{\global\let\znewpage\clearpage}\oldsection}
+
+\global\let\znewpage\clearpage
+
+%\renewcommand*\section\PoemTitle
+
+% Document
+
+\begin{document}
+
+
+
++++\\
+title = ``Chapter 1''
+
++++\\
+\# Chapter 1
+
+The first chapter
+
+\section{Section}\label{section}
+
+Paragraph+++\\
+author = {[}``John Henry''{]}\\
+date = ``2017-01-26T15:57:50+01:00''\\
+title = ``Chapter 2''
+
++++\\
+\#\# Question 1.
+
+One of the most crucial perspectives of this course is the complex
+relation between theory (critical theory, theory of culture) and
+theater. The approaches and discourses that are developed (by most of
+the authors we have read) usually try to combine a more or less strong
+critique of the European theoretical tradition (especially of the
+hyperbolic status of the subject, the insistence on rationality, on
+science, on representation, the repression of the body/the
+physical/materiality etc.) in which `theatricality' seems to have been
+repressed, with the attempt to develop a new kind of theoretical
+discourse or actually: another way of writing that would account for
+this theatricality. Give a critical account of this tension between
+theory and theater in at least 3 texts.
+
+\section{Three stages:}\label{three-stages}
+
+1. Nietzsche -- beginning of the end, premonition of the consequences of
+the scientific mind: ``imminence du malheur qui sommeil au sein de la
+culture théorique trouble de plus en plus l'homme moderne'';
+
+At this time Nietzsche still believes in the spirit of tragedy (Wagner);
+struggle between the theoretical mind and tragic conception of the
+world. Socrates, dialectic hero, optimism of science, victory of
+dialectic over darkness, illusion of science -- possession of being by
+knowledge, typical tendency of scientific mind to characterize, already
+obvious in Sophocles, theater as peinture de caractère; victory of
+appearance, Apollo = eternity of appearance. In opposition, Dionysus:
+dark side, generating cause, life, beyond appearance and behind the
+principles of individuation, music as idea of eternal life; in Dionysian
+art ``nature speaks her own true voice without disguise''. ``Resolution
+of this struggle would be Socrates practising music\ldots{}''
+
+Modernity is age of theoretical man, signifies decline of life,
+``natural cruelty of things''. ``the~Socratic culture~can
+only~hold~the~scepter~of its infallibility with trembling hands''.
+
+2. Artaud -- when life feels in a situation of radical/violent loss --
+historical and metaphysical characteristic of western man (article:
+`Universal Basis of Culture' from Mexico). Western culture: one that
+never coincided with life. Aim of saving man by bringing him back to
+life by means of theatre. Calls for change of civilization. Not so much
+a discourse on crisis of western man, because a crisis is to be
+resolved; but fundamental error, civilization took wrong path. Theater
+must be space for rupture and transformation to be experimented and
+acted. A new idea of man (total man), not a new humanism but beyond
+humanism. Esp., new idea of culture, not a Pantheon but a protest
+against a culture separated from life. Culture must be ``un moyen
+raffiné de comprendre et exercer la vie.'' Search in non-western,
+non-contemporary cultures (Mexico, Balinese theater\ldots{}) Mexique --
+vieux fond métaphysique très poétique , idea of man in possession of
+natural forces that ``breathe with the life of the world''.
+
+Therefore theater must bring man back to a poetic state, through
+physical means put the mind on the right path. So, theater must create
+its own pure physical language made of signs and not words (utilisés
+dans leur sens incantatoire); cruel because it is life (``true spectacle
+of life''); must have direct and strong action on man, so it is true
+action, communicates pure strong forces. Connects with reality of
+imagination and dreams: the ``verso'' of the the mind. ``So obscure
+facets of the spirit are revealed in real material projection''
+(Sontag). Myth. Renews old conflict, in gestures. Show archetypes rather
+than individual psychology. Archetypal reality is dangerous.
+
+`Pour en finir des chef-d'oeuvres': criticism of psychology, cryptic
+psychological theater, theater as mirror for audience, makes audience
+into a voyeur. In the end, people yearn for mystery, so must search,
+under the written poetry, for poetry itself. Anarchical power of poetry.
+
+Go beyond closed, egotistical, personal art. ``We are not free, the sky
+can still fall on our heads, and the job of theater is to teach us
+that.''
+
+3. Beckett -- after the catastrophe, when the end of the world is taken
+as a matter of course (Adorno). Deconstruction of traditional aesthetic
+categories attached to a metaphysical meaning, explosion of this
+metaphysical meaning, explosion of the individual. Adorno: ``Beckett's
+dramaturgy abandons the ontological tendency of existentialism and the
+position of the absolute subject.'' Individual experience's narrowness
+and contingency -- ``the prison of individuation is revealed as a
+prison, a mere semblance''. Proclaims the bankruptcy of the spirit.
+Thought trans formed into material of 2nd degree. Parody of forms,
+parody of philosophy. Identification of subject and philosophy. Misery
+of participants in Endgame is the misery of philosophy -- Adorno. Drama
+itself perishes along with subjectivity. ``Post-mortem examination of
+dramaturgy.'' Art can only depict solipsism, the stage becomes image of
+self reflection. What remains of subject, mind and thought, in the face
+of permanent catastrophe.
+
+And then Brecht. The optimist in the story. Socratic dramatist
+(Benjamin) (the optimism of marxism). Start of alternative history of
+European drama. Philosophical theater, as Artaud was metaphysical
+theater/consolation. Epic theater calls for a critical attitude as much
+for the author as for the ``productively'' disposed spectator. Actor
+adopts the attitude of a man who wanders, a man who lets himself be
+amazed and create astonishment in his audience (philosophical attitude
+par excellence) (Brecht). Close to lehrestück\ldots{}
+
+Epic suggests possibility that history might have been different.
+Fundamental contingency and inconsistency. The untragic hero, wise man,
+thinking man, interruption: the basis of his technique; gesture is its
+raw material. Gesture of showing. Story is still heart of theatrical
+performance.
+
+``The wise man is the perfect empty stage on which the contradiction of
+our society is acted out\ldots{} the stage becomes a public platform.
+\ldots{} Epic theater is not meant to develop action but to represent
+conditions, to uncover them by means of verfremdung (alienation,
+defamiliarization).
+
+Bibliography
+
+Friedrich Nietzsche, The Birth of Tragedy
+
+Antonin Artaud, Le théâtre et son double
+
+Antonin Artaud, Oeuvres Complètes, `Autour du Théâtre et son double'
+
+Revue des lettres modernes, Modernités d'Antonin Artaud
+
+Susan Sontag, `Approaching Artaud'
+
+Bertolt Brecht, `A Short Organum for the Theater'
+
+Walter Benjamin, `Understanding Brecht'
+
+Theodor Adorno, `Trying to Understand Endgame'
+
+%
+
+\end{document}
