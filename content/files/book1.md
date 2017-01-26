@@ -1,8 +1,8 @@
 +++
 author = ["Author 1"]
-date = "2017-01-26T12:58:56+01:00"
+date = "2017-01-26T13:05:20+01:00"
 editor = ["Editor"]
-title = "book2"
+title = "book1"
 type = "book"
 
 +++
