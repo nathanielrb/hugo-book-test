@@ -1,6 +1,6 @@
 ---
 params:
-  title: My Book
   author:
-    - John Henry
-...
+  - Jill Anderson
+  - John Henry
+  title: My Book
