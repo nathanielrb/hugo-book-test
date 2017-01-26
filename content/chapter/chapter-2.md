@@ -1,9 +1,9 @@
-+++
-author = ["John Henry"]
-date = "2017-01-26T15:57:50+01:00"
-title = "Chapter 2"
+---
+author: ["John Henry"]
+date: "2017-01-26T15:57:50+01:00"
+title: "Chapter 2"
+---
 
-+++
 ## Question 1.
 
 One of the most crucial perspectives of this course is the complex relation between theory (critical theory, theory of culture) and theater. The approaches and discourses that are developed (by most of the authors we have read) usually try to combine a more or less strong critique of the European theoretical tradition (especially of the hyperbolic status of the subject, the insistence on rationality, on science, on representation, the repression of the body/the physical/materiality etc.) in which ‘theatricality’ seems to have been repressed, with the attempt to develop a new kind of theoretical discourse or actually: another way of writing that would account for this theatricality. Give a critical account of this tension between theory and theater in at least 3 texts.
