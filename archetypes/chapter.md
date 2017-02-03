@@ -1,4 +1,4 @@
 +++
 Title = "Chapter 1"
-ChapterAuthor = ""
+Chapter-Author = [""]
 +++
