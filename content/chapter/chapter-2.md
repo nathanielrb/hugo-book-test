@@ -1,45 +1,11 @@
-## Question 1.
+# Léopold: Miloudi Baouider succède à Goegebeur
 
-One of the most crucial perspectives of this course is the complex relation between theory (critical theory, theory of culture) and theater. The approaches and discourses that are developed (by most of the authors we have read) usually try to combine a more or less strong critique of the European theoretical tradition (especially of the hyperbolic status of the subject, the insistence on rationality, on science, on representation, the repression of the body/the physical/materiality etc.) in which ‘theatricality’ seems to have been repressed, with the attempt to develop a new kind of theoretical discourse or actually: another way of writing that would account for this theatricality. Give a critical account of this tension between theory and theater in at least 3 texts.
 
-## Three stages:
+Conséquence de la fin de la collaboration, à effet immédiat, entre le Léopold et son entraîneur, Marc Goegebeur, c’est Miloudi Baouider, l’ex-adjoint, qui conduira l’équipe jusqu’à la fin de la saison, et davantage si affinités. "En réalité, tout s’est passé assez rapidement. Le président a annoncé à l’entraîneur qu’il ne serait pas reconduit pour la prochaine saison, et qu’il aimerait observer comment je me comporte à la tête de l’équipe. Dès lors, la position de l‘entraîneur n’avait plus beaucoup de sens. Ils ont donc décidé de se séparer, dès à présent. Nous avons connu une expérience sportive et une collaboration humaine intéressante, avec le désormais ex-coach. Mais je dois bien reconnaître que le courant ne passait pas très bien avec le groupe des joueurs", nous confiait Miloudi Baouider.
 
-1\. Nietzsche – beginning of the end, premonition of the consequences of the scientific mind: “imminence du malheur qui sommeil au sein de la culture théorique trouble de plus en plus l’homme moderne”;
+Qu’en est-il dès lors du staff, qui fera quoi ?
 
-At this time Nietzsche still believes in the spirit of tragedy (Wagner); struggle between the theoretical mind and tragic conception of the world. Socrates, dialectic hero, optimism of science, victory of dialectic over darkness, illusion of science – possession of being by knowledge, typical tendency of scientific mind to characterize, already obvious in Sophocles, theater as peinture de caractère; victory of appearance, Apollo = eternity of appearance. In opposition, Dionysus: dark side, generating cause, life, beyond appearance and behind the principles of individuation, music as idea of eternal life; in Dionysian art “nature speaks her own true voice without disguise”. “Resolution of this struggle would be Socrates practising music...”
+> Richard Burgo, le capitaine emblématique, un des anciens du Léopold et un monument du football bruxellois, vient d’intégrer le staff. Il sera très probablement mon adjoint. Il y a d’autres pistes et j’ai des noms en tête, que je préfère ne pas divulguer. Pour ce qui est du job d’entraîneur des gardiens, j’espère que Philippe Partage restera, du moins jusqu’à la fin de la saison. Il fait du bon boulot et est très apprécié des gardiens.
 
-Modernity is age of theoretical man, signifies decline of life, “natural cruelty of things”. “the Socratic culture can only hold the scepter of its infallibility with trembling hands”.
+Diverses rumeurs ont déjà circulé, comme celle qui annonçait que les joueurs ne seraient plus payés, que certains seraient écartés et d’autres bruits encore. Miloudi Baouider rassure: "Tout cela me fait sourire, il n’en est rien. Le président est un homme sérieux et de parole. Il n’y aura pas de révolution de palais. Nous allons préparer la saison prochaine, sereinement, évaluer en effet qui restera ou non, comme cela se passe partout. Nous comptons aussi mettre à l’épreuve l’un ou l’autre jeune, comme Kevin Mestenza, un défenseur central de 18 ans en qui nous croyons beaucoup et qui est suivi de près par le Sporting de Charleroi et OHL."
 
-2\. Artaud – when life feels in a situation of radical/violent loss – historical and metaphysical characteristic of western man (article: ‘Universal Basis of Culture’ from Mexico). Western culture: one that never coincided with life. Aim of saving man by bringing him back to life by means of theatre. Calls for change of civilization. Not so much a discourse on crisis of western man, because a crisis is to be resolved; but fundamental error, civilization took wrong path. Theater must be space for rupture and transformation to be experimented and acted. A new idea of man (total man), not a new humanism but beyond humanism. Esp., new idea of culture, not a Pantheon but a protest against a culture separated from life. Culture must be “un moyen raffiné de comprendre et exercer la vie.” Search in non-western, non-contemporary cultures (Mexico, Balinese theater…) Mexique – vieux fond métaphysique très poétique , idea of man in possession of natural forces that “breathe with the life of the world”.
-
-Therefore theater must bring man back to a poetic state, through physical means put the mind on the right path. So, theater must create its own pure physical language made of signs and not words (utilisés dans leur sens incantatoire); cruel because it is life (“true spectacle of life”); must have direct and strong action on man, so it is true action, communicates pure strong forces. Connects with reality of imagination and dreams: the “verso” of the the mind. “So obscure facets of the spirit are revealed in real material projection” (Sontag). Myth. Renews old conflict, in gestures. Show archetypes rather than individual psychology. Archetypal reality is dangerous.
-
-‘Pour en finir des chef-d’oeuvres’: criticism of psychology, cryptic psychological theater, theater as mirror for audience, makes audience into a voyeur. In the end, people yearn for mystery, so must search, under the written poetry, for poetry itself. Anarchical power of poetry.
-
-Go beyond closed, egotistical, personal art. “We are not free, the sky can still fall on our heads, and the job of theater is to teach us that.”
-
-3\. Beckett – after the catastrophe, when the end of the world is taken as a matter of course (Adorno). Deconstruction of traditional aesthetic categories attached to a metaphysical meaning, explosion of this metaphysical meaning, explosion of the individual. Adorno: “Beckett’s dramaturgy abandons the ontological tendency of existentialism and the position of the absolute subject.” Individual experience’s narrowness and contingency – “the prison of individuation is revealed as a prison, a mere semblance”. Proclaims the bankruptcy of the spirit. Thought trans formed into material of 2nd degree. Parody of forms, parody of philosophy. Identification of subject and philosophy. Misery of participants in Endgame is the misery of philosophy – Adorno. Drama itself perishes along with subjectivity. “Post-mortem examination of dramaturgy.” Art can only depict solipsism, the stage becomes image of self reflection. What remains of subject, mind and thought, in the face of permanent catastrophe.
-
-And then Brecht. The optimist in the story. Socratic dramatist (Benjamin) (the optimism of marxism). Start of alternative history of European drama. Philosophical theater, as Artaud was metaphysical theater/consolation. Epic theater calls for a critical attitude as much for the author as for the “productively” disposed spectator. Actor adopts the attitude of a man who wanders, a man who lets himself be amazed and create astonishment in his audience (philosophical attitude par excellence) (Brecht). Close to lehrestück…
-
-Epic suggests possibility that history might have been different. Fundamental contingency and inconsistency. The untragic hero, wise man, thinking man, interruption: the basis of his technique; gesture is its raw material. Gesture of showing. Story is still heart of theatrical performance.
-
-“The wise man is the perfect empty stage on which the contradiction of our society is acted out… the stage becomes a public platform. … Epic theater is not meant to develop action but to represent conditions, to uncover them by means of verfremdung (alienation, defamiliarization).
-
-Bibliography
-
-Friedrich Nietzsche, The Birth of Tragedy
-
-Antonin Artaud, Le théâtre et son double
-
-Antonin Artaud, Oeuvres Complètes, ‘Autour du Théâtre et son double’
-
-Revue des lettres modernes, Modernités d’Antonin Artaud
-
-Susan Sontag, ‘Approaching Artaud’
-
-Bertolt Brecht, ‘A Short Organum for the Theater’
-
-Walter Benjamin, ‘Understanding Brecht’
-
-Theodor Adorno, ‘Trying to Understand Endgame’
